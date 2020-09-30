@@ -91,6 +91,7 @@ Partial Class MathContestForm
         '
         'SummaryButton
         '
+        Me.SummaryButton.Enabled = False
         Me.SummaryButton.Location = New System.Drawing.Point(18, 191)
         Me.SummaryButton.Name = "SummaryButton"
         Me.SummaryButton.Size = New System.Drawing.Size(229, 79)
@@ -109,6 +110,7 @@ Partial Class MathContestForm
         '
         'SubmitButton
         '
+        Me.SubmitButton.Enabled = False
         Me.SubmitButton.Location = New System.Drawing.Point(18, 21)
         Me.SubmitButton.Name = "SubmitButton"
         Me.SubmitButton.Size = New System.Drawing.Size(229, 79)
